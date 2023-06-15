@@ -32,7 +32,7 @@ defmodule ChargebeeElixir.MixProject do
   defp deps do
     [
       {:jason, "~> 1.0"},
-      {:httpoison, "~> 1.7"},
+      {:httpoison, "~> 2.1.0"},
       {:plug, "~>1.11"},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false},
       {:mox, "~>1.0", only: [:test]}
